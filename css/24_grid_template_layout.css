@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(161, 14, 14);
+    display: grid;
+    margin: 10px;
+    padding: 10px;
+    height: 600px;
+
+    grid-template-columns: repeat(auto-fit, minmax(200px 500px));
+    grid-template-areas:
+    "a a a a "
+    "b c c d"
+    "b c c d"
+    "b c c d"
+    "e e e e ";
+
+}
+
+.box{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(184, 55, 87);
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#box1{
+    grid-area: a;
+}
+#box2{
+    grid-area: b;
+}
+#box3{
+    grid-area: c;
+}
+#box4{
+    grid-area: d;
+}
+#box5{
+    grid-area: e;
+}
+
+
+

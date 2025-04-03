@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+    .container{
+        background-color: aqua;
+        border: 2px solid blue;
+        margin: 5px;
+        padding: 5px;
+        
+        height: 500px;
+
+        display: flex;
+        /* flex-direction: column; */
+        /* flex-direction: column-reverse; */
+        /* flex-direction: row; */
+        /* flex-direction: row-reverse; */
+
+        /* wrap */
+        /* flex-wrap: wrap-reverse; */
+        /* flex-wrap: wrap; */
+        /* justify-content: space-around; */
+        /* justify-content: end; */
+        align-items: end;
+
+
+
+
+    }
+
+    .box{
+        height: 50px;
+        width: 100px;
+       
+        margin: 5px;
+        padding: 5px;
+        border: 1px solid red;
+    }
+    #abc{
+        background-color: red;
+
+        order: 4;
+
+        flex-shrink: 5;
+
+        flex-shrink: 5;
+
+        align-self: center;
+        
+    }    
+    #def{
+        background-color: rgb(79, 206, 62);
+    }    
+    #ghi{
+        background-color: rgb(20, 110, 194);
+    }    
+    #jkl{
+        background-color: rgb(124, 22, 124);
+    }

@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 600px;
+    width: 1280px;
+    border: 1px solid black;
+    background-color: antiquewhite;
+}
+
+.box{
+    height: 100px;
+    width: 200px;
+    border: 4px solid rgb(8, 8, 8);
+    background-color: aqua;
+    border-radius: 20%;
+    animation-name: box1;
+    position: relative;
+    /* animation-delay: 1sm; */
+    /* animation-duration: 4s; */
+    /* animation-direction: alternate; */
+    /* animation-iteration-count: infinite; */
+    /* animation-timing-function: ease-in-out; */
+    /* animation-fill-mode: backwards; */
+
+    animation: 3s ease-in 1s 2 alternate both box1;
+}
+
+@keyframes box1 {
+    from{
+        top: 0px;
+        left: 0px;
+    }
+    to{
+        top: 0px;
+        left: 1200px;
+    }
+    
+}
+
+
+
+#box2{
+
+    height: 100px;
+    width: 200px;
+    border: 4px solid rgb(8, 8, 8);
+    background-color: aqua;
+    border-radius: 20%;
+    animation-name: box2;
+    position: relative;
+
+    animation: 3s ease 1s infinite alternate both box2;
+}
+
+
+
+@keyframes box2 {
+    from{
+        top: 250px;
+        left: 1100px;
+    }
+    to{
+        top: 250px;
+        left: 0px;
+    }
+    
+}
+
+
+#circle{
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    border: 1px solid green;
+    border-radius: 50px;
+    margin: 20px;
+    position: relative;
+    top: 35%;
+    animation-name: circle1;
+
+    animation: 2s ease 1s  infinite alternate both circle1;
+
+}
+
+@keyframes circle1 {
+    from{
+        top: 250px;
+        left: 1100px;
+    }
+    to{
+        top: 250px;
+        left: 0px;
+    }
+    
+}

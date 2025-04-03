@@ -1,0 +1,26 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .container{
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid red;
+        display: grid;
+        gap: 1rem;
+        /* grid-template-columns: 1fr 1fr 1fr; */
+        grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+        justify-content: center;
+    }
+
+    .box{
+        border: 1px solid blue;
+        background-color: aquamarine;
+    }

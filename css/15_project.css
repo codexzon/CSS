@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+    .container{
+        margin: 5px;
+        padding: 5px;
+        border: 5px solid rgb(241, 241, 241);
+        background-color: antiquewhite;
+        height: 600px;
+        width: 100%;
+
+        
+    }
+
+    .box{
+        margin: 5px;
+        padding: 5px;
+    }
+
+    @media (min-width:600px) {
+        .container{
+            display: flex;
+            justify-content: end;
+            color: rgb(0, 0, 0);
+        }
+    }

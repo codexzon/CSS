@@ -1,0 +1,164 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Amazon Ember", Arial, sans-serif;
+    }
+
+    .navbar{
+        height: 60px;
+        background-color: #0f1111;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .logo{
+        background-image: url(./../img/project3/logo.jpg);
+        height: 50px;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .navbar-logo{
+        height: 50px;
+        width: 100px;
+    }
+
+
+    /* border */
+    .border{
+        padding: 1px;
+        border: 2px solid transparent;
+    }
+
+    .border:hover{
+        padding: 5px;
+        border: 2px solid white;
+    }
+
+    .border1{
+        border: none;
+    }
+    .border1:hover{
+        border: 2px solid transparent;
+    }
+
+
+       /* Navbar location */
+
+       #deliver{
+        color: #ccc;
+        font-size: 0.8rem;
+        margin-left: 288hpx;
+       }
+
+       #india{
+        color: #ffff;
+        font-size: 1rem;
+        margin-left: 3px;
+        margin: 3px;
+       }
+
+       #iconmap{
+        color: white;
+       }
+       .icon{
+        display: flex;
+        align-items: center;
+        margin-left: 12px;
+       }
+
+       /* Nab bar search */
+
+       .navbar-search{
+        display: flex;
+        background-color: orange;
+        height: 40px;
+        width: 580px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-evenly;
+       }
+
+       .search{
+        background-color: #f3f3f3;
+        width: 50px;
+        text-align: center;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+       }
+
+       .navbar-search input{
+        width: 100%;
+        border: none;
+       }
+
+       .search-icon{
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.3rem;
+       }
+
+       /* Nav bar signing */
+
+       .navbar-signin{
+        color: #ffff;
+       }
+
+       span{
+        font-size: .7rem;
+       }
+
+
+       #second{
+        font-size: 0.84rem;
+        font-weight: 680;
+       }
+
+       .navbar-cart{
+        font-size:.84rem;
+        color: white;
+       }
+
+       .navbar-cart i{
+        font-size: 35px;
+       }
+
+       /* navbar-lite */
+
+       .navbarlite{
+        height: 40px;
+        background-color: rgb(35, 50, 63);
+        color: #fff;
+        display: flex;
+        align-items: center;
+       }
+
+       .navbarlite-others p{
+        display: inline;
+        margin-left: 15px;
+       }
+       .navbarlite-others{
+        font-size: 0.85rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       }
+
+       /* header end */
+
+       .hero-section{
+        background-image: url(./../img/project3/hero-image.jpg);
+        height: 400px;
+        background-size: cover;
+       }
+
+       /* Shop Section */
+
+       .box{
+        display: flex;
+        
+       }

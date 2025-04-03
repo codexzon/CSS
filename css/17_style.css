@@ -1,0 +1,36 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .container{
+        border: 1px solid black;
+        height: 500px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .shadow{
+        border: 1px solid red;
+        height: auto;
+        width: 500px;
+        margin: 20px;
+        padding-left: 20px;
+        /* box-shadow: 15px 15px green; */
+        /* box-shadow: 15px 15px 100px rgb(221, 30, 30); */
+        /* box-shadow: 15px 15px 120px 100px rgb(128, 0, 0); */
+        /* box-shadow:inset 15px 15px 12px rgb(128, 0, 0); */
+
+        /* both side shadow */
+
+    box-shadow: 5px 10px red, -8px -10px greenyellow;
+
+    }
+
+    #heading{
+        /* text-shadow: 1px 1px red; */
+        /* text-shadow: 1px 1px 2px red; */
+        text-shadow: 1px 1px 2px red;
+    }

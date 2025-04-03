@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    body{
+        height: 100vh;
+        width: 100wh;
+    }
+
+    .container{
+
+        height: 1000px;
+        background-color: rgb(211, 253, 250);
+        display: grid;
+        border: 1px solid rgb(0, 55, 128);
+        padding: 10px;
+        margin: 5px;
+        /* row-gap: 5px;
+        column-gap: 5px; */
+        gap: 5px; /* this gap can be easily use for row and columns in a line  */
+        /* grid-template-columns:1fr 2fr 1fr; */
+         /* grid-template-columns:100px 100px 100px 100px ; */
+         
+        /* grid-template-columns: repeat(auto-fill,100px); */
+        /* grid-template-columns: auto auto auto auto; */
+
+        /* grid-template-rows: 200px 300px; */
+        /* grid-auto-rows: 100px; */
+
+        /* justify-content: center; 
+         align-content: center; 
+         justify-content: center; */
+
+         /* align-items: center; */
+
+
+         grid-template-areas: "a a a a"
+                              "b c c c"
+                              "b c c c"
+                              "b d d d";
+                                
+    }
+
+    .box{
+        border: 1px solid rgb(115, 138, 240);
+        background-color: rgb(191, 204, 204);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: larger;
+
+    }
+
+    #box1{
+        grid-area: a;
+    }
+
+    #box2{
+        grid-area: b;
+    }
+
+    #box3{
+        grid-area: c;
+    }
+
+    #box4{
+        grid-area: d;
+    }
+
+
+
+
